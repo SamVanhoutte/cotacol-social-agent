@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotacolAgent", "CotacolAgent\CotacolAgent.csproj", "{2F30A6C0-7EBB-4BF8-B9DC-A816769F7842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotacolAgent.FunctionTests", "CotacolAgent.FunctionTests\CotacolAgent.FunctionTests.csproj", "{AB2418B9-CD44-4CE7-BC1A-8C83F8E12FED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F30A6C0-7EBB-4BF8-B9DC-A816769F7842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F30A6C0-7EBB-4BF8-B9DC-A816769F7842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F30A6C0-7EBB-4BF8-B9DC-A816769F7842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F30A6C0-7EBB-4BF8-B9DC-A816769F7842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2418B9-CD44-4CE7-BC1A-8C83F8E12FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2418B9-CD44-4CE7-BC1A-8C83F8E12FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2418B9-CD44-4CE7-BC1A-8C83F8E12FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2418B9-CD44-4CE7-BC1A-8C83F8E12FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
